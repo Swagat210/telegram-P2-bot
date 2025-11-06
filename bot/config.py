@@ -4,7 +4,7 @@ import os
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv('8411398051:AAFMb3MmkumrGKQ3uy7V1tEltvUOtENmbDI')
+BOT_TOKEN = os.getenv('8266443596:AAE-ziq6rRzR0zZ1Ga5Ubgq2JO6M_eTjS2k')
 MERCHANT_UPI = os.getenv('8260758004@ptsbi')
 CHANNEL_ID = os.getenv('3059982885')
 WEBHOOK_SECRET = os.getenv('WEBHOOK_SECRET')
