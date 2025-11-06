@@ -5,3 +5,7 @@ jinja2
 python-dotenv
 aiosqlite
 requests
+flask
+gunicorn
+requests
+paytmchecksum
