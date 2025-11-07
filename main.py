@@ -23,3 +23,4 @@ async def telegram_webhook(update: dict):
     update = types.Update(**update)
     await dp.process_update(update)
     return {"ok": True}
+web: gunicorn -k uvicorn.workers.UvicornWorker main:app
