@@ -17,5 +17,6 @@ def home():
 
 if __name__ == '__main__':
     bot.remove_webhook()
-    bot.set_webhook(url=f"WEBHOOK_URL = "https://w-f4v4.onrender.com/webhook"}")
+    bot.set_webhook(url=f"WEBHOOK_URL = "https://telegram-p2-bot-802h.onrender.com/webhook/"}")
+    requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/setWebhook?url={WEBHOOK_URL}")
     app.run(host='0.0.0.0', port=5000)
