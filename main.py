@@ -3,7 +3,7 @@ from aiogram.types import Message
 from fastapi import FastAPI
 
 BOT_TOKEN = "8266443596:AAE-ziq6rRzR0zZ1Ga5Ubgq2JO6M_eTjS2k"
-WEBHOOK_URL = "https://w-f4v4.onrender.com/webhook"
+WEBHOOK_URL = "https://now-f4v4.onrender.com/webhook"
 
 app = FastAPI()
 bot = Bot(token=BOT_TOKEN)
