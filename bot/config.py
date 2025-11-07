@@ -7,7 +7,7 @@ load_dotenv()
 BOT_TOKEN = environ.get('BOT_TOKEN', "8266443596:AAE-ziq6rRzR0zZ1Ga5Ubgq2JO6M_eTjS2k")
 MERCHANT_UPI = os.getenv('8260758004@ptsbi')
 CHANNEL_ID = os.getenv('3059982885')
-WEBHOOK_SECRET = os.getenv('WEBHOOK_SECRET')
+WEBHOOK_SECRET = os.getenv('mysupersecret123')
 HOST = os.getenv('HOST', 'http://localhost:5611')
 DB_PATH = Path(__file__).parent.parent / 'data' / 'bot.db'
 
